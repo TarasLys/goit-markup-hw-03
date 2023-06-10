@@ -1,0 +1,219 @@
+
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --title-color: #2E2F42;
+    --text-color: #434455;
+    --between-letters: 0.02em;
+    --titleh2-size: 36px;
+    --titleh3-size: 20px;
+    --textp-size: 16px;
+    --height-line: 1.5;
+    --heighth1-line: 1.07;
+    --heighth2-line: 1.11;
+    --heighth3-line: 1.2;
+    
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-family: var(--primary-font);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Tangerine', cursive;  
+    background: #FFFFFF;
+    color: var(--title-color);
+    color: var(--text-color);
+    letter-spacing: var(--between-letters);
+    font-size: var(--titleh2-size);
+    font-size: var(--titleh3-size);
+    font-size: var(--textp-size);
+    line-height: var(--height-line);
+    line-height: var(--heighth1-line);
+    line-height: var(--heighth2-line);
+    line-height: var(--heighth3-line);
+}
+
+.body-rules {
+    font-family: "Roboto", sans-serif;
+}
+
+
+
+
+.logo-span {
+    color: #2e2f42; 
+}
+
+.logo-span-foot {
+    color: #F4F4FD;
+}
+
+
+
+.footer {
+        background: #2E2F42;
+}
+
+.footer-text {
+    font-family: var(--primary-font);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+.main-title {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: var(--heighth1-line);
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.section-main {
+    
+    background: #2E2F42;
+}
+
+.main-button {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background: #4D5AE5;
+    cursor: pointer;
+}
+
+.main-button:hover {
+    background: #404BBF;
+}
+
+.main-button:focus {
+    background-color: #404BBF;
+}
+
+
+
+.title-name {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--titleh3-size);
+    text-align: center;
+    letter-spacing: var(--between-letters);
+    color: var(--title-color);
+    line-height: var(--heighth3-line);
+}
+ 
+.text-description {
+    font-family: var(--primary-font);
+    font-size: var(--textp-size);
+    line-height: var(--height-line);
+    letter-spacing: var(--between-letters);
+    color: var(--text-color);
+}
+
+.title-subject {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--titleh2-size);
+    line-height: var(--heighth2-line);
+    text-align: center;
+    letter-spacing: var(--between-letters);
+    text-transform: capitalize;
+    color: var(--title-color);
+}
+
+
+.menu-button {
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: var(--textp-size);
+    line-height: var(--height-line);
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+    cursor: pointer;
+}
+
+
+.menu-button:hover {
+    background-color: #404BBF;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.menu-button:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    --primary-font: 'Roboto', sans-serif;
+    
+}
+
+.link:focus,
+.link:hover {
+    color: #404BBF;
+}
+
+
+
+.site-nav {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4D5AE5;
+}
+
+.color {
+    color: #2E2F42;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.addlink {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+.address {
+    font-style: normal;
+}
+
+.sec-ourteam {
+    background-color: #F4F4FD;
+}
+
+.list-ourteam {
+    background-color: #FFFFFF;
+}
