@@ -34,6 +34,25 @@ body {
 
 
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,
+ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+
 
 
 
@@ -66,6 +85,8 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    padding-bottom: 48px;
+    
 }
 
 
@@ -79,6 +100,9 @@ body {
     color: #FFFFFF;
     background: #4D5AE5;
     cursor: pointer;
+    width: 169px;
+        height: 56px;
+    
 }
 
 .main-button:hover {
@@ -96,10 +120,13 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: var(--titleh3-size);
-    text-align: center;
+    text-align: left;
     letter-spacing: var(--between-letters);
     color: var(--title-color);
     line-height: var(--heighth3-line);
+    padding-top: 120px;
+    padding-bottom: 8px;
+   
 }
 
 .text-description {
@@ -108,6 +135,7 @@ body {
     line-height: var(--height-line);
     letter-spacing: var(--between-letters);
     color: var(--text-color);
+   
 }
 
 .title-subject {
@@ -238,26 +266,27 @@ body {
 
 
 .logo {
-
+padding: 25px 0;
     
 }
 
 .nav-menu {
-    
+   padding-left: 76px; 
     
 }
 
 .list {
     display: flex;
     list-style: none;
-    align-items: center;
+    
  
     
 }
 
 .address {
-    
+    padding-right: 0;
     font-style: normal;
+    padding-left: 328px;
 }
 
 .section-main {
@@ -283,12 +312,32 @@ body {
         height: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        
     font-family: "Roboto", sans-serif;
 
 }
 
 .list-nav {
+    
+}
+
+.benefits {
     display: flex;
-        gap: 40px;
+    flex-wrap: wrap;
+    gap: 40px;
+    
+    padding-left: 0;
+  
+}
+
+.description {
+    display: flex;
+    
+        gap: 24px;
+    
+        padding: 0;
+}
+
+.test {
+    width: 264px;
 }
