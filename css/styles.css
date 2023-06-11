@@ -1,4 +1,3 @@
-
 :root {
     --primary-font: 'Roboto', sans-serif;
     --title-color: #2E2F42;
@@ -11,13 +10,7 @@
     --heighth1-line: 1.07;
     --heighth2-line: 1.11;
     --heighth3-line: 1.2;
-    
-}
 
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
 }
 
 body {
@@ -25,7 +18,7 @@ body {
     font-family: var(--primary-font);
     font-family: 'Montserrat', sans-serif;
     font-family: 'Raleway', sans-serif;
-    font-family: 'Tangerine', cursive;  
+    font-family: 'Tangerine', cursive;
     background: #FFFFFF;
     color: var(--title-color);
     color: var(--text-color);
@@ -39,15 +32,13 @@ body {
     line-height: var(--heighth3-line);
 }
 
-.body-rules {
-    font-family: "Roboto", sans-serif;
-}
+
 
 
 
 
 .logo-span {
-    color: #2e2f42; 
+    color: #2e2f42;
 }
 
 .logo-span-foot {
@@ -56,9 +47,7 @@ body {
 
 
 
-.footer {
-        background: #2E2F42;
-}
+
 
 .footer-text {
     font-family: var(--primary-font);
@@ -79,10 +68,6 @@ body {
     color: #FFFFFF;
 }
 
-.section-main {
-    
-    background: #2E2F42;
-}
 
 .main-button {
     font-family: "Roboto", sans-serif;
@@ -116,7 +101,7 @@ body {
     color: var(--title-color);
     line-height: var(--heighth3-line);
 }
- 
+
 .text-description {
     font-family: var(--primary-font);
     font-size: var(--textp-size);
@@ -164,14 +149,12 @@ body {
     background-color: #404BBF;
 }
 
-.list {
-    list-style: none;
-}
+
 
 .link {
     text-decoration: none;
     --primary-font: 'Roboto', sans-serif;
-    
+
 }
 
 .link:focus,
@@ -181,17 +164,7 @@ body {
 
 
 
-.site-nav {
-    font-family: "Raleway", sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-decoration: none;
-    color: #4D5AE5;
-}
+
 
 .color {
     color: #2E2F42;
@@ -212,9 +185,7 @@ body {
     color: #434455;
 }
 
-.address {
-    font-style: normal;
-}
+
 
 .sec-ourteam {
     background-color: #F4F4FD;
@@ -222,4 +193,102 @@ body {
 
 .list-ourteam {
     background-color: #FFFFFF;
+}
+
+
+.site-nav {   
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4D5AE5;
+}
+
+
+
+
+.container {
+    display: flex;
+    
+    margin: 0 158px;
+    border-bottom: 1px solid #ff0000;
+}
+
+.direction {
+    flex-direction: column;
+}
+
+.direction-title {
+    flex-direction: column;
+    align-items: center;
+    height: 600px;
+    justify-content: center;
+        
+}
+
+.direction-header {
+    display: flex;
+    align-items: baseline;
+    /* justify-content: space-evenly; */
+}
+
+
+.logo {
+
+    
+}
+
+.nav-menu {
+    
+    
+}
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+ 
+    
+}
+
+.address {
+    
+    font-style: normal;
+}
+
+.section-main {
+    width: 1440px;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        background: #2E2F42;
+        justify-content: center;
+            align-items: center;
+    
+}
+
+.footer {
+    width: 1440px;
+    height: 312px;
+    background: #2E2F42;
+    
+}
+
+.page-container {
+    width: 1440px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    font-family: "Roboto", sans-serif;
+
+}
+
+.list-nav {
+    display: flex;
+        gap: 40px;
 }
