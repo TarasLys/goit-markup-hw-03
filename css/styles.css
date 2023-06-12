@@ -364,3 +364,7 @@ ol {
 .portfolio-chess {
     margin-bottom: 120px;
 }
+
+.blue-line {
+    border-bottom: 1px solid #E7E9FC; 
+}
