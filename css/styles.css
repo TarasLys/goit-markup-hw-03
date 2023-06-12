@@ -30,6 +30,8 @@ body {
     line-height: var(--heighth1-line);
     line-height: var(--heighth2-line);
     line-height: var(--heighth3-line);
+    display: flex;   
+    justify-content: center;
 }
 
 
