@@ -269,7 +269,7 @@ padding-top: 120px;
 
 .container {
     display: flex;
-    
+    width: 1158px;
     margin: 0 156px;
     border-bottom: 1px solid #ff0000;
 }
