@@ -152,6 +152,8 @@ padding-top: 120px;
 .ourteam {
     text-align: center;
     padding-top: 8px;
+    padding-bottom: 32px;
+    
 }
 
 .title-subject {
@@ -181,6 +183,8 @@ padding-top: 120px;
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
+    width: 116px;
+    height: 48px;
 }
 
 
@@ -240,6 +244,9 @@ padding-top: 120px;
 
 .list-ourteam {
     background-color: #FFFFFF;
+    background: #FFFFFF;
+        box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+        border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -261,7 +268,7 @@ padding-top: 120px;
 .container {
     display: flex;
     
-    margin: 0 158px;
+    margin: 0 156px;
     border-bottom: 1px solid #ff0000;
 }
 
@@ -309,7 +316,7 @@ padding: 25px 0;
 .address {
     padding-right: 0;
     font-style: normal;
-    padding-left: 328px;
+    padding-left: 332px;
 }
 
 .section-main {
@@ -327,7 +334,8 @@ padding: 25px 0;
     width: 1440px;
     height: 312px;
     background: #2E2F42;
-    
+    display: flex;
+        flex-direction: column;
 }
 
 .page-container {
@@ -361,6 +369,55 @@ padding: 25px 0;
         padding: 0;
 }
 
+.description-range {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 48px;
+    column-gap: 24px;
+    padding: 0;
+}
+
 .test {
     width: 264px;
+}
+
+.position {
+    padding-bottom: 120px;
+}
+
+.portfolio {
+    
+}
+
+.portfolio-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 95px;
+    margin-bottom: 72px;
+}
+
+.box {
+        border: 1px solid #E7E9FC;
+}
+
+.box-main {
+    margin-bottom: 120px;
+
+}
+
+.header-portfolio {
+    padding-left: 16px;
+    padding-top: 32px;
+    padding-bottom: 8px;
+}
+
+.paragraph-portfolio {
+    padding-left: 16px;  
+    padding-bottom: 32px;
+}
+
+.portfolio-chess {
+    margin-bottom: 120px;
 }

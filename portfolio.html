@@ -24,23 +24,24 @@
     <title>Document</title>
   </head>
 
-  <body class="body-rules">
+  <body>
     <!--Header page-->
-    <header class="page-header">
-      <div class="container-menu">
+    <div class="page-container"></div>
+    <header>
+      <div class="container direction-header">
         <div class="logo">
           <a class="site-nav" href="./index.html"> Web<span class="logo-span">Studio</span> </a>
         </div>
 
         <nav class="nav-menu">
-          <ul class="list">
+          <ul class="list benefits">
             <li><a class="link color" href="./index.html">Studio</a></li>
             <li><a class="link color" href="./portfolio.html">Portfolio</a></li>
             <li><a class="link color" href="">Contacts</a></li>
           </ul>
         </nav>
         <address class="address">
-          <ul class="list">
+          <ul class="list benefits">
             <li><a class="link addlink" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
             <li><a class="link addlink" href="tel:+110001111111">+11 (000) 111-11-11</a></li>
           </ul>
@@ -49,10 +50,11 @@
     </header>
     <!--Main page-->
     <main>
+      <div class="container">
       <section>
         <h1 class="main-title" hidden>title h1</h1>
-
-        <ul class="list">
+        <div class="portfolio-nav">
+        <ul class="list description">
           <li>
             <button class="menu-button" type="button">All</button>
           </li>
@@ -69,9 +71,10 @@
             <button class="menu-button" type="button">Marketing</button>
           </li>
         </ul>
-
-        <ul class="list">
-          <li>
+        </div>
+        <div class="portfolio-chess"> 
+        <ul class="list portfolio description-range">
+          <li class="box">
             <a class="link" href="">
               <img
                 src="./images/imga.jpg"
@@ -79,85 +82,89 @@
                 width="360"
                 height="300"
               />
-              <h2 class="title-name">Banking App Interface Concept</h2>
-              <p class="text-description">App</p>
+              <h2 class="title-name header-portfolio">Banking App Interface Concept</h2>
+              <p class="text-description paragraph-portfolio">App</p>
             </a>
           </li>
-          <li>
+          <li class="box">
             <a class="link" href="">
               <img src="./images/imgb.jpg" alt="Cashless Payment" width="360" height="300" />
-              <h2 class="title-name">Cashless Payment</h2>
-              <p class="text-description">Marketing</p>
+              <h2 class="title-name header-portfolio">Cashless Payment</h2>
+              <p class="text-description paragraph-portfolio">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="box">
             <a class="link" href="">
               <img src="./images/imgc.jpg" alt="Meditation App" width="360" height="300" />
-              <h2 class="title-name">Meditation App</h2>
-              <p class="text-description">App</p>
+              <h2 class="title-name header-portfolio">Meditation App</h2>
+              <p class="text-description paragraph-portfolio">App</p>
             </a>
           </li>
-          <li>
+          <li class="box">
             <a class="link" href="">
               <img src="./images/imgd.jpg" alt="Taxi Service" width="360" height="300" />
-              <h2 class="title-name">Taxi Service</h2>
-              <p class="text-description">Marketing</p>
+              <h2 class="title-name header-portfolio">Taxi Service</h2>
+              <p class="text-description paragraph-portfolio">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="box">
             <a class="link" href="">
               <img src="./images/imge.jpg" alt="Screen Illustrations" width="360" height="300" />
-              <h2 class="title-name">Screen Illustrations</h2>
-              <p class="text-description">Design</p>
+              <h2 class="title-name header-portfolio">Screen Illustrations</h2>
+              <p class="text-description paragraph-portfolio">Design</p>
             </a>
           </li>
-          <li>
+          <li class="box">
             <a class="link" href="">
               <img src="./images/imgf.jpg" alt="Online Courses" width="360" height="300" />
-              <h2 class="title-name">Online Courses</h2>
-              <p class="text-description">Marketing</p>
+              <h2 class="title-name header-portfolio">Online Courses</h2>
+              <p class="text-description paragraph-portfolio">Marketing</p>
             </a>
           </li>
-          <li>
+          <li class="box">
             <a class="link" href="">
               <img
                 src="./images/imgl.jpg"
                 alt="Instagram Stories Concept"
                 width="360"
-                height="300"
-              />
-              <h2 class="title-name">Instagram Stories Concept</h2>
-              <p class="text-description">Design</p>
+                height="300"/>
+              <h2 class="title-name header-portfolio">Instagram Stories Concept</h2>
+              <p class="text-description paragraph-portfolio">Design</p>
             </a>
           </li>
-          <li>
+          <li class="box">
             <a class="link" href="">
               <img src="./images/imgm.jpg" alt="Organic Food" width="360" height="300" />
-              <h2 class="title-name">Organic Food</h2>
-              <p class="text-description">Web Site</p>
+              <h2 class="title-name header-portfolio">Organic Food</h2>
+              <p class="text-description paragraph-portfolio">Web Site</p>
             </a>
           </li>
-          <li>
+          <li class="box">
             <a class="link" href="">
               <img src="./images/imgk.jpg" alt="Fresh Coffee" width="360" height="300" />
-              <h2 class="title-name">Fresh Coffee</h2>
-              <p class="text-description">Web Site</p>
+              <h2 class="title-name header-portfolio">Fresh Coffee</h2>
+              <p class="text-description paragraph-portfolio">Web Site</p>
             </a>
           </li>
         </ul>
+        </div>
       </section>
+      </div>
     </main>
 
     <!--Footer page-->
     <footer class="footer">
-      <a class="site-nav link" href="./index.html">
-        Web<span class="logo-span-foot">Studio</span>
-      </a>
-      <p class="footer-text"
-        >Increase the flow of customers and <br />
-        sales for your business with digital <br />
-        marketing & growth solutions.</p
-      >
+      <div class="container direction">
+        <a class="site-nav link" href="./index.html">
+          Web<span class="logo-span-foot">Studio</span>
+        </a>
+        <p class="footer-text"
+          >Increase the flow of customers and <br />
+          sales for your business with digital <br />
+          marketing & growth solutions.</p
+        >
+      </div>
     </footer>
+  </div>
   </body>
 </html>
