@@ -446,14 +446,12 @@ ol {
      --primary-font: 'Roboto', sans-serif;
  }
 
- 
-
- .logo-span-foot {
-     
-     color: #F4F4FD;
- }
-
  .footer-link {
-   
+    display: block;
      margin-bottom: 16px;
  }
+
+  .logo-span-foot {
+    display: inline-block;
+    color: #F4F4FD;
+  }
