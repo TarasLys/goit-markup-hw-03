@@ -87,8 +87,8 @@ ol {
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: var(--textp-size);
+    line-height: var(--height-line);
     letter-spacing: 0.04em;
     color: #FFFFFF;
     background: #4D5AE5;
@@ -169,19 +169,22 @@ ol {
     letter-spacing: 0.04em;
     color: #4D5AE5;
     cursor: pointer;
-    width: 116px;
-    height: 48px;
+    padding: 12px 24px;
+    border-radius: 4px;
+    
 }
 
 .menu-button:hover {
     background-color: #404BBF;
     color: #FFFFFF;
     cursor: pointer;
+    border: 1px solid transparent;
 }
 
 .menu-button:focus {
     color: #FFFFFF;
     background-color: #404BBF;
+    border: 1px solid transparent;
 }
 
 .link {
@@ -232,6 +235,7 @@ ol {
 }
 
 .site-nav {  
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     font-style: normal;
     font-weight: 800;
@@ -301,7 +305,8 @@ ol {
     flex-direction: column;
     background: #2E2F42;
     justify-content: center;
-    align-items: center;   
+    align-items: center;  
+    padding: 188px 0;
 }
 
 .footer {
@@ -384,18 +389,18 @@ ol {
     
 }
 
-.visually-hidden {
+ .visually-hidden {
      position: absolute;
-     white-space: nowrap;
      width: 1px;
      height: 1px;
-     overflow: hidden;
+     margin: -1px;
      border: 0;
      padding: 0;
+
+     white-space: nowrap;
+     clip-path: inset(100%);
      clip: rect(0 0 0 0);
-     -webkit-clip-path: inset(50%);
-     clip-path: inset(50%);
-     margin: -1px;
+     overflow: hidden;
  }
 
  .footer-link {
