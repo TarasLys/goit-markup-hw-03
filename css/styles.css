@@ -57,6 +57,7 @@ ol {
 }
 
 .logo-span-foot {
+    display: inline-block;
     color: #F4F4FD;
 }
 
@@ -188,6 +189,7 @@ ol {
 }
 
 .link {
+    display: inline-block;
     text-decoration: none;
     --primary-font: 'Roboto', sans-serif;
 }
