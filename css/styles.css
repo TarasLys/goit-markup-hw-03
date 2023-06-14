@@ -44,10 +44,11 @@ body {
     color: var(--ocean-color);
     color: var(--navy-blue-color);
     color: var(--slate-color);
+   
     
     
-    /* display: flex;    */
-    /* justify-content: center; */
+    display: flex;    
+    justify-content: center;
 }
 
 h1,
@@ -206,7 +207,7 @@ ol {
 
 .link:focus,
 .link:hover {
-    color: var(--ocean-color);;
+    color: var(--ocean-color);
 }
 
 .color {
@@ -254,18 +255,20 @@ ol {
 }
 
 .container {
-    display: flex;
+    /* display: flex; */
     width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
     
 }
 
-.direction {
-    display: flex;
+/* .direction {
+    display: flex; 
     flex-direction: column;
-}
+} */
 
 .direction-title {
+    display: flex;
     flex-direction: column;
     align-items: center;
     height: 600px;
