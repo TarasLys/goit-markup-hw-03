@@ -1,7 +1,5 @@
 :root {
     --primary-font: 'Roboto', sans-serif;
-    --title-color: #2E2F42;
-    --text-color: #434455;
     --between-letters: 0.02em;
     --titleh2-size: 36px;
     --titleh3-size: 20px;
@@ -10,6 +8,19 @@
     --heighth1-line: 1.07;
     --heighth2-line: 1.11;
     --heighth3-line: 1.2;
+    --iris-color: #4D5AE5;
+    --ocean-color: #404BBF;
+    --navy-blue-color: #2E2F42;
+    --green-color: #31D0AA;
+    --slate-color: #434455;
+    --light-slate-color: #8E8F99;
+    --cornflower-color: #E7E9FC;
+    --cloud-color: #F4F4FD;
+    --navy-blue-modal-color: #2E2F42;
+    --grey-color: #2E2F42;
+    --white-color: #FFFFFF;
+    --dairy-color: #FCFCFC;
+
 }
 
 body {
@@ -19,8 +30,6 @@ body {
     font-family: 'Raleway', sans-serif;
     font-family: 'Tangerine', cursive;
     background: #FFFFFF;
-    color: var(--title-color);
-    color: var(--text-color);
     letter-spacing: var(--between-letters);
     font-size: var(--titleh2-size);
     font-size: var(--titleh3-size);
@@ -29,8 +38,16 @@ body {
     line-height: var(--heighth1-line);
     line-height: var(--heighth2-line);
     line-height: var(--heighth3-line);
-    display: flex;   
-    justify-content: center;
+    color: var(--cloud-color);
+    color: var(--iris-color);
+    color: var(--white-color);
+    color: var(--ocean-color);
+    color: var(--navy-blue-color);
+    color: var(--slate-color);
+    
+    
+    /* display: flex;    */
+    /* justify-content: center; */
 }
 
 h1,
@@ -53,7 +70,8 @@ ol {
 }
 
 .logo-span {
-    color: #2e2f42;
+    
+    color: var(--navy-blue-color);
 }
 
 
@@ -62,7 +80,7 @@ ol {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #F4F4FD;
+    color: var(--cloud-color);
     
 }
 
@@ -74,7 +92,7 @@ ol {
     line-height: var(--heighth1-line);
     text-align: center;
     letter-spacing: 0.02em;
-    color: #FFFFFF;
+    color: var(--white-color);
     padding-bottom: 48px;
     max-width: 496px;
     
@@ -87,7 +105,7 @@ ol {
     font-size: var(--textp-size);
     line-height: var(--height-line);
     letter-spacing: 0.04em;
-    color: #FFFFFF;
+    color: var(--white-color);
     background: #4D5AE5;
     cursor: pointer;
     min-width: 169px;
@@ -114,7 +132,7 @@ ol {
     font-weight: 500;
     font-size: var(--titleh3-size);
     letter-spacing: var(--between-letters);
-    color: var(--title-color);
+    color: var(--navy-blue-color);
     line-height: var(--heighth3-line);   
 }
 
@@ -133,7 +151,7 @@ ol {
     font-size: var(--textp-size);
     line-height: var(--height-line);
     letter-spacing: var(--between-letters);
-    color: var(--text-color);  
+    color: var(--slate-color);
 }
 
 .ourteam {
@@ -150,7 +168,7 @@ ol {
     text-align: center;
     letter-spacing: var(--between-letters);
     text-transform: capitalize;
-    color: var(--title-color);
+    color: var(--navy-blue-color);
     
 }
 
@@ -164,7 +182,7 @@ ol {
     line-height: var(--height-line);
     text-align: center;
     letter-spacing: 0.04em;
-    color: #4D5AE5;
+    color: var(--iris-color);
     cursor: pointer;
     padding: 12px 24px;
     border-radius: 4px;
@@ -173,13 +191,13 @@ ol {
 
 .menu-button:hover {
     background-color: #404BBF;
-    color: #FFFFFF;
+    color: var(--white-color);
     cursor: pointer;
     border: 1px solid transparent;
 }
 
 .menu-button:focus {
-    color: #FFFFFF;
+    color: var(--white-color);
     background-color: #404BBF;
     border: 1px solid transparent;
 }
@@ -188,11 +206,11 @@ ol {
 
 .link:focus,
 .link:hover {
-    color: #404BBF;
+    color: var(--ocean-color);;
 }
 
 .color {
-    color: #2E2F42;
+    color: var(--navy-blue-color);
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
@@ -208,7 +226,7 @@ ol {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-    color: #434455;
+    color: var(--slate-color);
     padding: 24px 0 24px 0;
 }
 
@@ -435,7 +453,7 @@ ol {
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
-        color: #4D5AE5;
+        color: var(--iris-color);
 }
 
  .footer-logo {
@@ -447,7 +465,7 @@ ol {
      letter-spacing: 0.03em;
      text-transform: uppercase;
      text-decoration: none;
-     color: #4D5AE5;
+    color: var(--iris-color);
      display: inline-block;
     margin-bottom: 16px;
  }
@@ -458,5 +476,5 @@ ol {
  }
 
   .logo-span-foot {
-    color: #F4F4FD;
+    color: var(--cloud-color);
   }
