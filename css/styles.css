@@ -4,10 +4,11 @@
     --titleh2-size: 36px;
     --titleh3-size: 20px;
     --textp-size: 16px;
-    --height-line: 1.5;
+    --heightp-line: 1.5;
     --heighth1-line: 1.07;
     --heighth2-line: 1.11;
     --heighth3-line: 1.2;
+    --heightlogo-line: 1.17;
     --iris-color: #4D5AE5;
     --ocean-color: #404BBF;
     --navy-blue-color: #2E2F42;
@@ -31,10 +32,6 @@ body {
     font-size: var(--titleh2-size);
     font-size: var(--titleh3-size);
     font-size: var(--textp-size);
-    line-height: var(--height-line);
-    line-height: var(--heighth1-line);
-    line-height: var(--heighth2-line);
-    line-height: var(--heighth3-line);
     color: var(--cloud-color);
     color: var(--iris-color);
     color: var(--white-color);
@@ -71,7 +68,7 @@ ol {
 .footer-text {
     font-family: var(--primary-font);
     font-size: 16px;
-    line-height: 24px;
+    line-height: var(--heightp-line);
     letter-spacing: 0.02em;
     color: var(--cloud-color); 
 }
@@ -94,7 +91,7 @@ ol {
     font-style: normal;
     font-weight: 500;
     font-size: var(--textp-size);
-    line-height: var(--height-line);
+    line-height: var(--heightp-line);
     letter-spacing: 0.04em;
     color: var(--white-color);
     background: var(--iris-color); 
@@ -137,7 +134,7 @@ ol {
 .text-description {
     font-family: var(--primary-font);
     font-size: var(--textp-size);
-    line-height: var(--height-line);
+    line-height: var(--heightp-line);
     letter-spacing: var(--between-letters);
     color: var(--slate-color);
 }
@@ -165,7 +162,7 @@ ol {
     font-style: normal;
     font-weight: 500;
     font-size: var(--textp-size);
-    line-height: var(--height-line);
+    line-height: var(--heightp-line);
     text-align: center;
     letter-spacing: 0.04em;
     color: var(--iris-color);
@@ -197,7 +194,7 @@ ol {
     font-family: "Roboto";
     font-style: normal;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: var(--heightp-line);
     letter-spacing: 0.02em;
     padding: 24px 0 24px 0;
 }
@@ -207,7 +204,7 @@ ol {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: var(--heightp-line);
     letter-spacing: 0.02em;
     color: var(--slate-color);
     padding: 24px 0 24px 0;
@@ -232,7 +229,6 @@ ol {
 }
 
 .container {
-    /* display: flex; */
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;  
@@ -283,11 +279,11 @@ ol {
 }
 
 .footer {
-    width: 1440px;
-    height: 312px;
+    /* width: 1440px;
+    height: 312px; */
     background: var(--navy-blue-color);
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 100px 0;
 }
 
@@ -413,7 +409,7 @@ ol {
         font-style: normal;
         font-weight: 800;
         font-size: 18px;
-        line-height: 1.17;
+        line-height: var(--heightlogo-line);
         letter-spacing: 0.03em;
         text-transform: uppercase;
         text-decoration: none;
@@ -425,7 +421,7 @@ ol {
      font-style: normal;
      font-weight: 800;
      font-size: 18px;
-     line-height: 1.17;
+     line-height: var(--heightlogo-line);
      letter-spacing: 0.03em;
      text-transform: uppercase;
      text-decoration: none;
